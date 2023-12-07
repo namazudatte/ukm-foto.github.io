@@ -1,0 +1,17 @@
+{
+  "name": "porto-namazu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/style/input.css -o ./public/output.css --watch",
+    "deploy": "git add final.css && git commit -m 'Build and deploy' && git push"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
